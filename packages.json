@@ -1,7 +1,7 @@
 {
     "packages": {
         "libraries/enum": {
-            "dev-master": {
+            "dev": {
                 "name": "libraries/enum",
                 "description": "The libraries enumerator and simulator flag",
                 "keywords" : [ "libraries", "enum", "key", "flag"],
@@ -48,7 +48,7 @@
             }
         },
         "libraries/crud": {
-            "dev-master": {
+            "dev": {
                 "name": "libraries/crud",
                 "version": "dev-master",
                 "description": "The generator for forming block MVC CRUD",
@@ -109,7 +109,7 @@
             }
         },
         "libraries/passportsocialite": {
-            "dev-master": {
+            "dev": {
                 "name": "libraries/passportsocialite",
                 "version": "dev-master",
                 "dist": {
