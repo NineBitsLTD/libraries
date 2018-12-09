@@ -1,18 +1,131 @@
 {
-    "name": "labiteam/libraries",
-    "repositories": [
-        {
-            "type": "git",
-            "url": "https://vs_labiteam@bitbucket.org/labiteam_clone/libraries-enum.git"
+    "packages": {
+        "libraries/enum": {
+            "dev-master": {
+                "name": "libraries/enum",
+                "description": "The libraries enumerator and simulator flag",
+                "keywords" : [ "libraries", "enum", "key", "flag"],
+                "license": "MIT",
+                "authors": [
+                    {
+                        "name": "Vyacheslav Strikalo",
+                        "email": "ninebits@meta.ua"
+                    }
+                ],
+                "version": "dev-master",
+                "dist": {
+                    "type": "git-bitbucket",
+                    "url": "https://vs_labiteam@bitbucket.org/labiteam_clone/libraries-enum.git"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Libraries\\Enum\\": "src/"
+                    }
+                }
+            },
+            "1.0.0.0": {
+                "name": "libraries/enum",
+                "description": "The libraries enumerator and simulator flag",
+                "keywords" : [ "libraries", "enum", "key", "flag"],
+                "license": "MIT",
+                "authors": [
+                    {
+                        "name": "Vyacheslav Strikalo",
+                        "email": "ninebits@meta.ua"
+                    }
+                ],
+                "version": "1.0.0.0",
+                "dist": {
+                    "type": "git-bitbucket",
+                    "url": "https://vs_labiteam@bitbucket.org/labiteam_clone/libraries-enum.git",
+                    "tags-path": "1.0.0.0"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Libraries\\Enum\\": "src/"
+                    }
+                }
+            }
         },
-        {
-            "type": "git",
-            "url": "https://vs_labiteam@bitbucket.org/labiteam_clone/libraries-crud.git"
+        "libraries/crud": {
+            "dev-master": {
+                "name": "libraries/crud",
+                "version": "dev-master",
+                "description": "The generator for forming block MVC CRUD",
+                "type": "library",
+                "keywords" : [ "libraries", "crud"],
+                "license": "MIT",
+                "authors": [
+                    {
+                        "name": "Vyacheslav Strikalo",
+                        "email": "ninebits@meta.ua"
+                    }
+                ],
+                "dist": {
+                    "type": "git-bitbucket",
+                    "url": "https://vs_labiteam@bitbucket.org/labiteam_clone/libraries-crud.git"
+                },
+                "require": {
+                    "php": "^7.0",
+                    "libraries/enum": "^1.0"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Libraries\\Crud\\": "src/"
+                    }
+                },
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Libraries\\Crud\\CrudServiceProvider"
+                        ]
+                    }
+                }
+            },
+            "1.0.0.0": {
+                "name": "libraries/crud",
+                "version": "1.0.0.0",
+                "dist": {
+                    "type": "git-bitbucket",
+                    "url": "https://vs_labiteam@bitbucket.org/labiteam_clone/libraries-crud.git",
+                    "tags-path": "1.0.0.0"
+                },
+                "require": {
+                    "php": "^7.0",
+                    "libraries/enum": "^1.0"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Libraries\\Crud\\": "src/"
+                    }
+                },
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Libraries\\Crud\\CrudServiceProvider"
+                        ]
+                    }
+                }
+            }
         },
-        {
-            "type": "git",
-            "url": "https://vs_labiteam@bitbucket.org/labiteam_clone/libraries-passportsocialite.git"
+        "libraries/passportsocialite": {
+            "dev-master": {
+                "name": "libraries/passportsocialite",
+                "version": "dev-master",
+                "dist": {
+                    "type": "git-bitbucket",
+                    "url": "https://vs_labiteam@bitbucket.org/labiteam_clone/libraries-passportsocialite.git"
+                }
+            },
+            "1.0.0.0": {
+                "name": "libraries/passportsocialite",
+                "version": "1.0.0.0",
+                "dist": {
+                    "type": "git-bitbucket",
+                    "url": "https://vs_labiteam@bitbucket.org/labiteam_clone/libraries-passportsocialite.git",
+                    "tags-path": "1.0.0.0"
+                }
+            }
         }
-        
-    ]
+    }
 }
