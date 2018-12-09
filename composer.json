@@ -1,17 +1,61 @@
 {
-    "repositories": [
-        {
-            "type": "git",
-            "url": "https://vs_labiteam@bitbucket.org/labiteam_clone/libraries-enum.git"
+    "packages": {
+        "libraries/enum": {
+            "dev": {
+                "name": "libraries/enum",
+                "version": "dev",
+                "dist": {
+                    "type": "git-bitbucket",
+                    "url": "https://vs_labiteam@bitbucket.org/labiteam_clone/libraries-enum.git"
+                }
+            },
+            "1.0.0.0": {
+                "name": "libraries/enum",
+                "version": "1.0.0.0",
+                "dist": {
+                    "type": "git-bitbucket",
+                    "url": "https://vs_labiteam@bitbucket.org/labiteam_clone/libraries-enum.git",
+                    "tags-path": "1.0.0.0"
+                }
+            }
         },
-        {
-            "type": "git",
-            "url": "https://vs_labiteam@bitbucket.org/labiteam_clone/libraries-crud.git"
+        "libraries/crud": {
+            "dev": {
+                "name": "libraries/crud",
+                "version": "dev",
+                "dist": {
+                    "type": "git-bitbucket",
+                    "url": "https://vs_labiteam@bitbucket.org/labiteam_clone/libraries-crud.git"
+                }
+            },
+            "1.0.0.0": {
+                "name": "libraries/crud",
+                "version": "1.0.0.0",
+                "dist": {
+                    "type": "git-bitbucket",
+                    "url": "https://vs_labiteam@bitbucket.org/labiteam_clone/libraries-crud.git",
+                    "tags-path": "1.0.0.0"
+                }
+            }
         },
-        {
-            "type": "git",
-            "url": "https://vs_labiteam@bitbucket.org/labiteam_clone/libraries-passportsocialite.git"
+        "libraries/passportsocialite": {
+            "dev": {
+                "name": "libraries/passportsocialite",
+                "version": "dev",
+                "dist": {
+                    "type": "git-bitbucket",
+                    "url": "https://vs_labiteam@bitbucket.org/labiteam_clone/libraries-passportsocialite.git"
+                }
+            },
+            "1.0.0.0": {
+                "name": "libraries/passportsocialite",
+                "version": "1.0.0.0",
+                "dist": {
+                    "type": "git-bitbucket",
+                    "url": "https://vs_labiteam@bitbucket.org/labiteam_clone/libraries-passportsocialite.git",
+                    "tags-path": "1.0.0.0"
+                }
+            }
         }
-        
-    ]
+    }
 }
