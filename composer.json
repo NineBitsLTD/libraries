@@ -1,0 +1,17 @@
+{
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://vs_labiteam@bitbucket.org/labiteam_clone/libraries-enum.git"
+        },
+        {
+            "type": "git",
+            "url": "https://vs_labiteam@bitbucket.org/labiteam_clone/libraries-crud.git"
+        },
+        {
+            "type": "git",
+            "url": "https://vs_labiteam@bitbucket.org/labiteam_clone/libraries-passportsocialite.git"
+        }
+        
+    ]
+}
